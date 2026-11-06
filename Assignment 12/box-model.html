@@ -1,0 +1,40 @@
+<!--
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 12 - Box Model, Cards and Scrolling - Task 1
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 12 - Box Model</title>
+    <style>
+        .box1 {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid #0077b6;
+            box-sizing: content-box;
+            background-color: #caf0f8;
+            margin-bottom: 20px;
+        }
+        .box2 {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid #2b9348;
+            box-sizing: border-box;
+            background-color: #d8f3dc;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <strong>Box 1 (content-box):</strong> Total width = 200 + 40 + 10 = 250px.
+    </div>
+    <div class="box2">
+        <strong>Box 2 (border-box):</strong> Total width stays exactly 200px.
+    </div>
+</body>
+</html>

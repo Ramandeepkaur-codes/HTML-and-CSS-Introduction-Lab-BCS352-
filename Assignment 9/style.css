@@ -1,0 +1,35 @@
+/*
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 9 - Tables with Headers and Footers
+*/
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: #e9ecef;
+}

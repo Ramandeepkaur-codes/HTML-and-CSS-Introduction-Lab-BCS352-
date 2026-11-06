@@ -1,0 +1,29 @@
+/*
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 4 - Divs, Attributes and a Small Fix
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 15px 20px;
+}

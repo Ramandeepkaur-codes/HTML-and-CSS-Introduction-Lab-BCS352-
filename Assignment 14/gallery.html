@@ -1,0 +1,46 @@
+<!--
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 14 - CSS Grid Layouts - Task 2
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 14 - Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .photo-box {
+            background-color: #fef08a;
+            border: 1px solid #ca8a04;
+            padding: 30px 10px;
+            text-align: center;
+            font-weight: bold;
+            color: #854d0e;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Club Photo Gallery</h1>
+    <div class="gallery">
+        <div class="photo-box">Photo 1</div>
+        <div class="photo-box">Photo 2</div>
+        <div class="photo-box">Photo 3</div>
+        <div class="photo-box">Photo 4</div>
+        <div class="photo-box">Photo 5</div>
+        <div class="photo-box">Photo 6</div>
+    </div>
+</body>
+</html>

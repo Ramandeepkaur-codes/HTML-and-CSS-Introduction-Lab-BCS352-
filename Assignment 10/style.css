@@ -1,0 +1,23 @@
+/*
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 10 - CSS Fundamentals - Task 2 (style.css)
+*/
+h1 {
+    color: navy;
+}
+
+.note {
+    font-style: italic;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+}

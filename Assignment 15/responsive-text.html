@@ -1,0 +1,35 @@
+<!--
+Student Name: Ramandeep Kaur
+Roll Number : BCS2025395
+Course      : B.Tech CSE - Second Year
+Subject     : HTML and CSS Introduction Lab (BCS352)
+Assignment  : Assignment 15 - Responsive Pages with Media Queries - Task 3
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 15 - Responsive Text</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            font-size: 1rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: #1e3a8a;
+        }
+        @media (min-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Heading</h1>
+    <p>The body text has a font size of 1rem. The h1 heading begins at 1.5rem on small screens, and scales up to 2.5rem at 600px and wider via a media query.</p>
+</body>
+</html>
